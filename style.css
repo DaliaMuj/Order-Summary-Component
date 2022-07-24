@@ -1,0 +1,109 @@
+body {
+    height: 100vh;
+    background-image: url("pattern-background-desktop.svg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.introduction {
+    margin: 10px;
+    text-align: center;
+    font-size: 13px;
+}
+h1 {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+p {
+    font-size: 16px;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    margin: 0;
+}
+.container {
+    width: 375px;
+    height: 550px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 1em;
+    justify-content: center;
+}
+
+#image {
+    height: 23vh;
+    width: 375px;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+
+.annual-plan {
+    height: 70px;
+    width: 300px;
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content:space-around;
+    border-radius: 1em;
+}
+
+#icon {
+    height: 40px;
+    width: 40px;
+}
+
+#plan {
+    font-weight: 900;
+    font-size: 1.7em;
+    color: hsl(223, 47%, 23%);
+}
+
+#money {
+    font-weight: 500;
+    font-size: 1.6em;
+}
+
+.text-plan {
+    font-weight: 900;
+    font-size: 0.5em;
+}
+
+a {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#proceed {
+    height: 40px;
+    width: 300px;
+    border-radius: 1em;
+    border-style: hidden;
+    background-color: rgb(65, 8, 255);
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+    box-shadow: 7px 10px 9px hwb(240 81% 16%);
+    margin: 0 auto;
+}
+
+#cancel {
+    height: 40px;
+    width: 300px;
+    border-style: hidden;
+    background-color: white;
+    color: hsl(224, 23%, 55%);
+    font-weight: 750;
+    margin-bottom: 10px;
+    font-size: 11px;
+}
